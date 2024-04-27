@@ -1,0 +1,75 @@
+
+
+
+::-webkit-scrollbar{
+    position: absolute;
+    background-color: #f8f9fa;
+    width: 10px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(43, 87, 97, 0);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #426872;
+    transition: 3ms;
+}
+
+.bg-nd{
+    box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.74);
+}
+
+.bg-ti-nd{
+    background-color: #2B5761;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.7);
+}
+
+.bg-ti-nt{
+    background-color: #2B5761;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.74);
+}
+
+.bg-buton-ds{
+    height:300px;
+    width:350px;
+    background-position: center;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    box-shadow :inset 0px -130px 20px -20px #212529;
+    transition-duration: 0.3s;
+}
+.bg-buton-ds:hover{
+
+}
+
+.bg-buton-ds .nombre{
+    color: white;
+}
+.bg-buton-ds .desc{
+    color: #2B5761;
+}
+.bg-buton-ds .precio{
+    color: white;
+}
+.bg-buton-ds .apertura{
+    color: white;
+}
+.bg-buton-ds .no-btn{
+    pointer-events: none;
+}
+
+.bg-head{
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.72);
+}
+
+.bg-filtro{
+    box-shadow: 0px -5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.bg-cont{
+    background-color: #000000;
+    box-shadow: -2px 1px 7px 0px rgba(0, 0, 0, 0.73);
+}

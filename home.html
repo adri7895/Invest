@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Explorar Negocios</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="m-0 p-0 bg-light">
+    <div class="bg-light">
+        <div class="bg-dark">
+            <header class="z-2 bg-head rounded-bottom-3 navbar pt-0 pb-0 gx-0 shadow bg-secondary">
+                <div class="container-fluid gap-0 shadow rounded-bottom-3 pt-2 pb-2 rounded-bottom-3 justify-content-around shadow bg-light">
+                    <h1 class="fw-semibold ms-4">Invest</h1>
+                    <div class="vr"></div>
+                    <div class="input-group w-50">
+                        <input type="text" class="form-control" placeholder="¿Buscas Algo?" aria-label="¿Buscar Algo?" aria-describedby="button-addon">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon">Buscar</button>
+                    </div>
+                    <button data-bs-toggle="offcanvas" class="navbar-toggler d-flex row align-items-center" type="button" data-bs-target="#offcanvas2" aria-controls="offcanvas2" style="margin-right: 10px">
+                        <div class="col-sm-auto text-center">
+                            <label class="fw-semibold">Perfil</label>
+                        </div>
+                        <div class="col-sm-auto" style="width: 60px; height: 60px; background-color: #ffffff; ">
+                            <img src="" alt="">
+                        </div>
+                    </button>
+                </div>
+                <div class="shadow collapse navbar-collapse show rounded-bottom-3 pb-2">
+                    <div class="container-fluid d-flex flex-wrap pt-3 pb-2 justify-content-center gap-4">
+                        <a class="btn btn-secondary shadow">categoria</a>
+                        <a class="btn btn-secondary shadow">categoria</a>
+                        <a class="btn btn-secondary shadow">categoria</a>
+                        <a class="btn btn-secondary shadow">categoria</a>
+                        <a class="btn btn-secondary shadow">categoria</a>
+
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="rounded-bottom-3 shadow bg-dark p-4 row gx-0 gap-5 justify-content-evenly">
+            <div id="carouselAutoplaying" class="carousel-dark slide w-100 h-100 position-relative" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="shadow rounded-3 carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+            </div>
+            <div id="carouselAutoplaying2" class="carousel-dark slide w-25 h-25 position-relative" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="shadow rounded-3 carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="72427.jpg" class="d-block w-100" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="72427.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="72427.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+            </div>
+            <div id="carouselAutoplaying3" class="carousel-dark slide w-50 h-50 position-relative" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="shadow rounded-3 carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="..." >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Large-horizontal.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+            </div>
+        </div>
+        <footer class="z-0 navbar navbar-expand-lg text-center align-items-center bg-light pt-3 pb-4" style="height: 20%;">
+            <div class="container-fluid justify-content-center gap-4 ">
+                <div class="col">
+                    <label class="col text-center align-items-center h-auto fw-semibold fs-6">Nuestra Empresa</label>
+                    <ul class="list-group list-group-flush rounded-3">
+                        <li class="list-group-item list-group-item-light p-0 pt-1"><a>Quienes Somos</a></li>
+                        <li class="list-group-item list-group-item-light p-0 pt-1"><a>Se un Inversor</a></li>
+                        <li class="list-group-item list-group-item-light p-0 pt-1"><a>¿Crecer tu negocio?</a></li>
+                    </ul>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                    <label class="col text-center">Metodos de Pago</label>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                    <label class="col text-center">Politicas</label>
+                </div>
+                <div class="vr"></div>
+                <div class="col">
+                    <label class="col text-center">Formacion</label>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="shadow offcanvas offcanvas-end rounded-end-2 rounded-start-2" id="offcanvas2">
+        <div class="z-2 shadow justify-content-start rounded-start-2 row fs-5 fw-semibold  pt-2 pb-2 sticky-sm-top gx-0">
+            <button type="button" class="position-absolute col-auto btn-close ms-1" data-bs-dismiss="offcanvas" aria-label="close"></button>
+            <label class="col-auto text-center flex-grow-1 offcanvas-title">Perfil de Usuario</label>
+        </div>
+        <div class="mt-4 row-cols-1 justify-content-center text-center ps-4 pe-4">
+            <div class="bg-secondary pt-2 pb-2 rounded-3">
+                <div class="col">
+                    <button class="shadow btn btn-secondary" type="button">Informacion Personal</button>
+                </div>
+                <div class="col">
+                    <button class="shadow col btn btn-secondary mt-2" type="button">Negocios Guardados</button>
+                </div>
+                <div class="col">
+                    <button class="shadow col btn btn-secondary mt-2" type="button">Inversiones Realizadas</button>
+                </div>
+                <div class="col">
+                    <button class="shadow col btn btn-secondary mt-2" type="button">Emprendimientos Guardados</button>
+                </div>
+                <div class="col">
+                    <button class="shadow col btn btn-danger mt-3" type="button">Cerrar Sesion</button>
+                </div>
+            </div>
+            <div class="ms-1 col mt-3 shadow rounded-3 overflow-y-auto h-50 w-100 justify-content-center">
+                <button class="row rounded-3 btn btn-dark shadow justify-content-start mt-2">
+                    <label>Titulo Notificacion</label>
+                    <label>Descripcion notificacion</label>
+                </button>
+                <button class="row rounded-3 btn btn-dark shadow justify-content-start mt-2">
+                    <label>Titulo Notificacion</label>
+                    <label>Descripcion notificacion</label>
+                </button>
+                <button class="row rounded-3 btn btn-dark shadow justify-content-start mt-2">
+                    <label>Titulo Notificacion</label>
+                    <label>Descripcion notificacion</label>
+                </button>
+                <button class="row rounded-3 btn btn-dark shadow justify-content-start mt-2">
+                    <label>Titulo Notificacion</label>
+                    <label>Descripcion notificacion</label>
+                </button>
+                <button class="row rounded-3 btn btn-dark shadow justify-content-start mt-2">
+                    <label>Titulo Notificacion</label>
+                    <label>Descripcion notificacion</label>
+                </button>
+            </div>
+        </div>
+    </div>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
